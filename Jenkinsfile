@@ -6,11 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/shreyas282001/project.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
