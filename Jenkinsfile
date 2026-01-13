@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "shreyas282001/project"
+        DOCKER_IMAGE = "shreyas282001/flask-ci"
     }
 
     stages {
@@ -26,3 +26,4 @@ pipeline {
         }
     }
 }
+cls
